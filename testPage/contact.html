@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/icon/fontawesome-free-5.15.1-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/img/logo2.png">
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- start header -->
+        <div id="header">
+            <div class="navbar">
+                <div class="res-name">
+                    <button class="menu-btn">
+                        <i class="fas fa-bars icon-menu"></i>
+                        <i class="fas fa-times icon-menu"></i>
+                    </button>
+                    <img src="./assets/img/logo2.png" alt="logo" class="logo">
+                    <h1><a href="./index.html">La Res'phoria</a></h1>
+                </div>
+                <div class="nav-menu">
+                    <ul class="list-menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About us</a></li>
+                        <li><a href="./menu.html">Our menu</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li class="active"><a href="./contact.html">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end header -->
+        <!-- start section -->
+        <div id="section">
+            <div class="map">
+                <h1>Contact us</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.671793476587!2d-87.62868638489275!3d41.87840737922214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ca31aba861f%3A0xea937aea7976b853!2s28%20E%20Jackson%20Blvd%2C%20Chicago%2C%20IL%2060654%2C%20Hoa%20K%E1%BB%B3!5e0!3m2!1svi!2s!4v1632676146893!5m2!1svi!2s"
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <!-- end section -->
+        <!-- start content -->
+        <div id="content">
+            <div class="form">
+                <div class="address-form">
+                    <h1>Addresses</h1>
+                    <div class="adds-phone">
+                        <h2>Address 1:</h2>
+                        <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p>
+                    </div>
+                    <div class="adds-phone">
+                        <h2>Phones:</h2>
+                        <p>+1 800 559 6580</p>
+                        <p class="no-mt">+1 800 603 6035</p>
+                    </div>
+                    <div class="adds-phone">
+                        <h2>Address 2:</h2>
+                        <p>9863 - 9867 Mill Road, Cambridge, MG09 99HT.</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h1>Contact form</h1>
+                    <form action="" class="list-form">
+                        <div class="info">
+                            <label for="">
+                                <input type="text" name="name" placeholder="* Your full name is here">
+                            </label>
+                            <label for="">
+                                <input type="email" name="email" placeholder="* Enter your e-mail">
+                            </label>
+                            <label for="">
+                                <input type="tel" name="phone" placeholder="Your telephone here">
+                            </label>
+                        </div>
+                        <label for="" class="message">
+                            <textarea name="message" id="" placeholder="* Your comments & questions"></textarea>
+                        </label>
+                        <button class="submit-btn" type="submit" onclick="displayresult()">
+                            <span>Submit</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- end content -->
+        <!-- start footer -->
+        <div id="footer">
+            <div class="slider-footer">
+                <div class="container-footer">
+                    <div class="first-card p-m">
+                        <div class="address">
+                            <p>28 Jackson Blvd<br>Ste 151, Chicago<br>IL 60604-2340</p>
+                        </div>
+                        <div class="email">
+                            <i class="far fa-envelope"></i>
+                            <a href="" class="link-mail">info@demolink.org</a>
+                        </div>
+                    </div>
+                    <div class="second-card p-m">
+                        <ul>
+                            <li><a href="./index.html">HOME</a></li>
+                            <li><a href="./about.html">ABOUT US</a></li>
+                            <li><a href="./menu.html">OUR MENU</a></li>
+                            <li><a href="./gallery.html">GALLERY</a></li>
+                            <li class="active"><a href="#">CONTACTS</a></li>
+                        </ul>
+                    </div>
+                    <div class="third-card p-m">
+                        <ul class="list-icon">
+                            <li>
+                                <a href="https://twitter.com/">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.google.com/intl/vi/account/about/">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.pinterest.com/">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <p>
+                            ©
+                            <span>2021</span>
+                            <span class="line"></span>
+                            <a href="">PRIVACY POLICY</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end footer -->
+    </div>
+
+    <script>
+        const $ = document.querySelector.bind(document)
+        const $$ = document.querySelectorAll.bind(document)
+
+        const menuActive = $('.menu-btn')
+        const icon = $('.icon-menu')
+        const navMenu = $('.nav-menu')
+        const openNav = $('open')
+
+        menuActive.onclick = function() {
+            $('.menu-btn').classList.toggle("active")
+            $('.nav-menu').classList.toggle("open")
+        
+        }
+        function displayresult(){
+            const name = document.forms[0]["name"].value;
+            const email = document.forms[0]["email"].value;
+            const cp = document.forms[0]["message"].value;
+
+            if(name === " "){
+                alert('Vui lòng nhập fullname ');
+                return;
+            }
+            if(email === " "){
+                 alert('Vui lòng nhập email ');
+            return;
+            }
+            if( cp ===" ") {
+                alert("Vui lòng nhập phản hồi của bạn");
+                return;
+            }
+
+            alert("Gửi phản hồi thành công");
+            }
+             
+    </script>
+</body>
+
+</html>
